@@ -41,7 +41,7 @@ export const Footer = () => {
             <div className="lg:col-span-1">
               <div className="flex items-center space-x-2 mb-6">
                 <img 
-                  src="/src/assets/logo.ico" 
+                  src="/public/favicon.ico" 
                   alt="DipDips Logo" 
                   className="w-12 h-12 rounded-full"
                 />
