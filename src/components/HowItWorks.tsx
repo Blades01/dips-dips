@@ -16,8 +16,8 @@ export const HowItWorks = () => {
     },
     {
       icon: Truck,
-      title: "We Deliver Fast",
-      description: "We prepared and delivered meals arrive at your door fresh and ready to enjoy.",
+      title: "Ready for Pickup",
+      description: "Your prepared meals are ready for pickup fresh and delicious when you arrive.",
       step: "03"
     }
   ];
@@ -31,7 +31,7 @@ export const HowItWorks = () => {
             How It <span className="text-primary">Works</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            From selection to delivery, we've made it simple for you to enjoy healthy, 
+            From selection to pickup, we've made it simple for you to enjoy healthy, 
             delicious meals without the hassle.
           </p>
         </div>

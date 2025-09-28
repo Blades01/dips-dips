@@ -18,7 +18,6 @@ export const FranchiseSection = () => {
     state: "",
     city: "",
     location: "",
-    investment: "",
     timeline: ""
   });
 
@@ -37,7 +36,6 @@ export const FranchiseSection = () => {
       state: "",
       city: "",
       location: "",
-      investment: "",
       timeline: ""
     });
   };
@@ -79,7 +77,7 @@ export const FranchiseSection = () => {
             Become a <span className="text-primary">Franchise Partner</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Join India's fastest-growing healthy food delivery network and build a 
+            Join India's fastest-growing healthy food pickup network and build a 
             profitable business with our proven franchise model.
           </p>
         </div>
@@ -206,19 +204,6 @@ export const FranchiseSection = () => {
                   />
                 </div>
 
-                <div className="space-y-2">
-                  <Label>Investment Level *</Label>
-                  <Select value={formData.investment} onValueChange={(value) => handleInputChange("investment", value)}>
-                    <SelectTrigger>
-                      <SelectValue placeholder="Select Investment Level" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      {investmentLevels.map((level) => (
-                        <SelectItem key={level} value={level}>{level}</SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
 
                 <div className="space-y-2">
                   <Label>When do you want to open? *</Label>
@@ -249,7 +234,7 @@ export const FranchiseSection = () => {
             {/* Why Choose Us */}
             <Card className="shadow-medium">
               <CardHeader>
-                <CardTitle>Why Choose Dip-Dips Franchise?</CardTitle>
+                <CardTitle>Why Choose FreshBites Franchise?</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-start space-x-3">
@@ -277,7 +262,7 @@ export const FranchiseSection = () => {
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
                     <h4 className="font-semibold text-foreground">Technology Edge</h4>
-                    <p className="text-sm text-muted-foreground">Advanced POS system and delivery management platform</p>
+                    <p className="text-sm text-muted-foreground">Advanced POS system and pickup management platform</p>
                   </div>
                 </div>
               </CardContent>
@@ -300,7 +285,7 @@ export const FranchiseSection = () => {
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-primary" />
                   <div>
-                    <p className="font-medium">franchise@Dip-Dips.com</p>
+                    <p className="font-medium">franchise@freshbites.com</p>
                     <p className="text-sm text-muted-foreground">Franchise Enquiries</p>
                   </div>
                 </div>

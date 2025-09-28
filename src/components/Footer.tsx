@@ -5,22 +5,22 @@ import { Facebook, Instagram, Twitter, Youtube, Phone, Mail, MapPin, Clock } fro
 export const Footer = () => {
   const footerLinks = {
     company: [
-      { name: "About Us", href: "#about" },
+      { name: "About Us", href: "/about" },
       { name: "Our Story", href: "#story" },
       { name: "Careers", href: "#careers" },
       { name: "Press", href: "#press" },
     ],
     services: [
-      { name: "Food Delivery", href: "#delivery" },
+      { name: "Food Pickup", href: "#pickup" },
       { name: "Catering", href: "#catering" },
-      { name: "Franchise", href: "#franchise" },
+      { name: "Franchise", href: "/franchise" },
       { name: "Corporate Orders", href: "#corporate" },
     ],
     support: [
       { name: "Help Center", href: "#help" },
       { name: "Track Order", href: "#track" },
       { name: "Returns", href: "#returns" },
-      { name: "Contact Us", href: "#contact" },
+      { name: "Contact Us", href: "/contact" },
     ],
   };
 
@@ -40,16 +40,18 @@ export const Footer = () => {
             {/* Brand Section */}
             <div className="lg:col-span-1">
               <div className="flex items-center space-x-2 mb-6">
-                <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-xl">F</span>
-                </div>
+                <img 
+                  src="/src/assets/logo.ico" 
+                  alt="FreshBites Logo" 
+                  className="w-12 h-12 rounded-full"
+                />
                 <div>
-                  <h3 className="text-2xl font-bold">Dip-Dips</h3>
-                  <p className="text-sm text-background/70">Healthy Food Delivery</p>
+                  <h3 className="text-2xl font-bold">FreshBites</h3>
+                  <p className="text-sm text-background/70">Hygienic food for everyone</p>
                 </div>
               </div>
               <p className="text-background/80 mb-6 leading-relaxed">
-                Delivering fresh, healthy, and delicious meals to your doorstep. 
+                Preparing fresh, healthy, and delicious meals ready for pickup. 
                 Made with love, served with care.
               </p>
               <div className="flex space-x-4">
@@ -130,7 +132,7 @@ export const Footer = () => {
                 <div className="flex items-start space-x-3">
                   <Mail className="w-5 h-5 text-primary mt-0.5" />
                   <div>
-                    <p className="font-medium">hello@Dip-Dips.com</p>
+                    <p className="font-medium">hello@freshbites.com</p>
                     <p className="text-sm text-background/70">General Inquiries</p>
                   </div>
                 </div>
@@ -145,7 +147,7 @@ export const Footer = () => {
                   <Clock className="w-5 h-5 text-primary mt-0.5" />
                   <div>
                     <p className="font-medium">6:00 AM - 11:00 PM</p>
-                    <p className="text-sm text-background/70">Delivery Hours</p>
+                    <p className="text-sm text-background/70">Pickup Hours</p>
                   </div>
                 </div>
               </div>
@@ -175,7 +177,7 @@ export const Footer = () => {
         <div className="border-t border-background/20 py-8">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="text-sm text-background/70">
-              © 2024 Dip-Dips. All rights reserved.
+              © 2024 FreshBites. All rights reserved.
             </div>
             <div className="flex items-center space-x-6 text-sm">
               <a href="#privacy" className="text-background/70 hover:text-primary transition-colors">

@@ -32,7 +32,7 @@ export const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl lg:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-            We deliver healthy food that are ready to eat. Just choose your own menu you like and enjoy fresh, delicious meals delivered to your door.
+            We prepare healthy food that are ready to eat. Just choose your own menu you like and enjoy fresh, delicious meals ready for pickup.
           </p>
 
           {/* CTA Buttons */}
