@@ -159,7 +159,7 @@ const Contact = () => {
                       <Mail className="w-6 h-6 text-primary mt-1" />
                       <div>
                         <h4 className="font-semibold text-foreground">Email</h4>
-                        <p className="text-muted-foreground">hello@freshbites.com</p>
+                        <p className="text-muted-foreground">hello@DipDips.com</p>
                         <p className="text-sm text-muted-foreground">General Inquiries</p>
                       </div>
                     </div>
@@ -193,7 +193,7 @@ const Contact = () => {
                       Interested in becoming a franchise partner? Contact our dedicated franchise team.
                     </p>
                     <div className="space-y-2">
-                      <p className="font-medium">📧 franchise@freshbites.com</p>
+                      <p className="font-medium">📧 franchise@DipDips.com</p>
                       <p className="font-medium">📞 +1 234 567 8901</p>
                     </div>
                   </CardContent>

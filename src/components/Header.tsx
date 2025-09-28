@@ -21,10 +21,10 @@ export const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 rounded-full overflow-hidden">
-              <img src="/favicon.ico" alt="FreshBites Logo" className="w-full h-full object-cover" />
+              <img src="/favicon.ico" alt="DipDips Logo" className="w-full h-full object-cover" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">FreshBites</h1>
+              <h1 className="text-xl font-bold text-foreground">DipDips</h1>
               <p className="text-xs text-muted-foreground">Hygienic food for everyone</p>
             </div>
           </div>

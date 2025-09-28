@@ -234,7 +234,7 @@ export const FranchiseSection = () => {
             {/* Why Choose Us */}
             <Card className="shadow-medium">
               <CardHeader>
-                <CardTitle>Why Choose FreshBites Franchise?</CardTitle>
+                <CardTitle>Why Choose DipDips Franchise?</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-start space-x-3">
@@ -285,7 +285,7 @@ export const FranchiseSection = () => {
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-primary" />
                   <div>
-                    <p className="font-medium">franchise@freshbites.com</p>
+                    <p className="font-medium">franchise@DipDips.com</p>
                     <p className="text-sm text-muted-foreground">Franchise Enquiries</p>
                   </div>
                 </div>

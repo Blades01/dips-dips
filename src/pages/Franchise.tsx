@@ -32,7 +32,7 @@ const Franchise = () => {
   const requirements = [
     "Minimum 500 sq ft space in high-footfall area",
     "Investment capacity as per chosen franchise model",
-    "Commitment to maintain FreshBites quality standards",
+    "Commitment to maintain DipDips quality standards",
     "Willingness to undergo comprehensive training program",
     "Local market knowledge and community connections",
     "Passion for healthy food and customer service"
@@ -94,7 +94,7 @@ const Franchise = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-                Why Choose <span className="text-primary">FreshBites Franchise?</span>
+                Why Choose <span className="text-primary">DipDips Franchise?</span>
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 Partner with us and enjoy the benefits of a well-established business model 
@@ -130,7 +130,7 @@ const Franchise = () => {
                 Franchise <span className="text-primary">Process</span>
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Simple and straightforward process to become a FreshBites franchise partner.
+                Simple and straightforward process to become a DipDips franchise partner.
               </p>
             </div>
 
