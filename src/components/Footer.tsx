@@ -41,10 +41,7 @@ export const Footer = () => {
             <div className="lg:col-span-1">
               <div className="flex items-center space-x-2 mb-6">
                 <img 
-                  src="/favicon.ico" 
-                  alt="DipDips Logo" 
-                  className="w-12 h-12 rounded-full"
-                />
+                  src="/favicon.ico" alt="DipDips Logo" className="w-12 h-12 rounded-full"/>
                 <div>
                   <h3 className="text-2xl font-bold">DipDips</h3>
                   <p className="text-sm text-background/70">Hygienic food for everyone</p>
