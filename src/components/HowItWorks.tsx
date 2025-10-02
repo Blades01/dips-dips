@@ -1,4 +1,4 @@
-import { ShoppingCart, Truck, UtensilsCrossed } from "lucide-react";
+import { ShoppingCart, ShoppingBag, UtensilsCrossed } from "lucide-react";
 
 export const HowItWorks = () => {
   const steps = [
@@ -15,7 +15,7 @@ export const HowItWorks = () => {
       step: "02"
     },
     {
-      icon: Truck,
+      icon: ShoppingBag,
       title: "Ready for Pickup",
       description: "Your prepared meals are ready for pickup fresh and delicious when you arrive.",
       step: "03"

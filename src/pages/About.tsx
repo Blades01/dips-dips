@@ -63,14 +63,14 @@ const About = () => {
           <div className="container mx-auto px-4">
             <div className="text-center max-w-4xl mx-auto">
               <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20">
-                About DipDips
+                About FreshBites
               </Badge>
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6">
                 Hygienic Food for <span className="text-primary">Everyone</span>
               </h1>
               <p className="text-lg text-muted-foreground">
                 Founded with a mission to make healthy, hygienic food accessible to all, 
-                DipDips has been serving nutritious meals prepared with love and care since 2016.
+                FreshBites has been serving nutritious meals prepared with love and care since 2016.
               </p>
             </div>
           </div>
@@ -86,7 +86,7 @@ const About = () => {
                 </h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    DipDips was born from a simple belief: everyone deserves access to healthy, 
+                    FreshBites was born from a simple belief: everyone deserves access to healthy, 
                     hygienic food that doesn't compromise on taste. What started as a small kitchen 
                     in Mumbai has grown into a trusted name across 25+ cities in India.
                   </p>
@@ -177,7 +177,7 @@ const About = () => {
                 Meet Our <span className="text-primary">Team</span>
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                The passionate experts behind every healthy meal at DipDips.
+                The passionate experts behind every healthy meal at FreshBites.
               </p>
             </div>
 
@@ -204,21 +204,63 @@ const About = () => {
           </div>
         </section>
 
-        {/* Mission Section */}
+        {/* Mission, Vision, Values Section */}
         <section className="py-20">
           <div className="container mx-auto px-4">
-            <div className="text-center max-w-4xl mx-auto">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Target className="w-8 h-8 text-primary" />
-              </div>
+            <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-                Our Mission
+                Mission, Vision & <span className="text-primary">Values</span>
               </h2>
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                To revolutionize the way India eats by making healthy, hygienic food accessible, 
-                affordable, and absolutely delicious. We believe that good health starts with good food, 
-                and everyone deserves the best quality meals prepared with care and served with love.
-              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              {/* Mission */}
+              <Card className="shadow-medium hover:shadow-strong transition-all duration-300">
+                <CardContent className="pt-8 text-center">
+                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <Target className="w-8 h-8 text-primary" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-foreground mb-4">
+                    Our Mission
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    To revolutionize the way India eats by making healthy, hygienic food accessible, 
+                    affordable, and absolutely delicious. We believe that good health starts with good food.
+                  </p>
+                </CardContent>
+              </Card>
+
+              {/* Vision */}
+              <Card className="shadow-medium hover:shadow-strong transition-all duration-300">
+                <CardContent className="pt-8 text-center">
+                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <Target className="w-8 h-8 text-primary" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-foreground mb-4">
+                    Our Vision
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    To become India's most trusted healthy food brand, inspiring millions to embrace 
+                    nutritious eating habits and lead healthier, happier lives through our fresh meals.
+                  </p>
+                </CardContent>
+              </Card>
+
+              {/* Values */}
+              <Card className="shadow-medium hover:shadow-strong transition-all duration-300">
+                <CardContent className="pt-8 text-center">
+                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <Heart className="w-8 h-8 text-primary" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-foreground mb-4">
+                    Our Values
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Health first, quality assured, fresh ingredients, community focus, and hygiene excellence. 
+                    These principles guide every decision we make and every meal we prepare.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>

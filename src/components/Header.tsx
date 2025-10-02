@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Mail } from "lucide-react";
+import logo from "@/assets/logo.ico";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,8 +10,7 @@ export const Header = () => {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Menu", href: "/menu" },
-    { name: "How It Works", href: "/#how-it-works" },
-    { name: "Franchise", href: "/franchise" },
+    { name: "Career", href: "/career" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -21,10 +21,10 @@ export const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 rounded-full overflow-hidden">
-              <img src="/favicon.ico" alt="DipDips Logo" className="w-full h-full object-cover" />
+              <img src={logo} alt="FreshBites Logo" className="w-full h-full object-cover" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">DipDips</h1>
+              <h1 className="text-xl font-bold text-foreground">FreshBites</h1>
               <p className="text-xs text-muted-foreground">Hygienic food for everyone</p>
             </div>
           </div>

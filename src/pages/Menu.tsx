@@ -3,7 +3,9 @@ import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Star, Clock, Users } from "lucide-react";
+import { Star, Clock, Utensils } from "lucide-react";
+import turmericMilkImg from "@/assets/turmeric-milk.jpg";
+import freshLimeWaterImg from "@/assets/fresh-lime-water.jpg";
 
 const Menu = () => {
   const menuCategories = [
@@ -12,31 +14,31 @@ const Menu = () => {
       description: "Nutritious and filling bowl meals",
       items: [
         {
-          name: "Mediterranean Quinoa Bowl",
-          description: "Quinoa, grilled vegetables, feta cheese, olives, and herb dressing",
-          price: "₹295",
+          name: "Masala Dosa Bowl",
+          description: "Crispy dosa served with sambar, coconut chutney, and potato filling",
           rating: 4.8,
           prepTime: "15 mins",
-          calories: "450 cal",
-          isVegetarian: true
+          calories: "420 cal",
+          isVegetarian: true,
+          image: "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=400&h=300&fit=crop"
         },
         {
-          name: "Protein Power Bowl",
-          description: "Grilled chicken, brown rice, avocado, and mixed greens",
-          price: "₹345",
+          name: "Idli Sambar Bowl",
+          description: "Steamed rice cakes with lentil sambar and coconut chutney",
           rating: 4.9,
-          prepTime: "18 mins",
-          calories: "520 cal",
-          isVegetarian: false
+          prepTime: "10 mins",
+          calories: "280 cal",
+          isVegetarian: true,
+          image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=400&h=300&fit=crop"
         },
         {
-          name: "Asian Fusion Bowl",
-          description: "Teriyaki tofu, jasmine rice, edamame, and sesame dressing",
-          price: "₹275",
+          name: "Upma Bowl",
+          description: "Savory semolina porridge with vegetables and spices",
           rating: 4.7,
           prepTime: "12 mins",
-          calories: "380 cal",
-          isVegetarian: true
+          calories: "320 cal",
+          isVegetarian: true,
+          image: "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=400&h=300&fit=crop"
         }
       ]
     },
@@ -45,46 +47,79 @@ const Menu = () => {
       description: "Crisp and refreshing salad combinations",
       items: [
         {
-          name: "Garden Fresh Salad",
-          description: "Mixed greens, cherry tomatoes, cucumber, and balsamic dressing",
-          price: "₹195",
+          name: "Kachumber Salad",
+          description: "Fresh cucumber, tomato, onion with lemon and spices",
           rating: 4.6,
           prepTime: "8 mins",
-          calories: "180 cal",
-          isVegetarian: true
+          calories: "150 cal",
+          isVegetarian: true,
+          image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop"
         },
         {
-          name: "Grilled Chicken Caesar",
-          description: "Romaine lettuce, grilled chicken, parmesan, and caesar dressing",
-          price: "₹285",
+          name: "Sprouts Salad",
+          description: "Mixed sprouts with vegetables, lime, and chaat masala",
           rating: 4.8,
-          prepTime: "15 mins",
-          calories: "320 cal",
-          isVegetarian: false
+          prepTime: "10 mins",
+          calories: "180 cal",
+          isVegetarian: true,
+          image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=300&fit=crop"
         }
       ]
     },
     {
-      name: "Smoothies & Juices",
+      name: "Traditional Thalis",
+      description: "Complete balanced meals",
+      items: [
+        {
+          name: "South Indian Thali",
+          description: "Rice, sambar, rasam, vegetable curry, curd, and papad",
+          rating: 4.9,
+          prepTime: "20 mins",
+          calories: "550 cal",
+          isVegetarian: true,
+          image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop"
+        },
+        {
+          name: "Mini Thali",
+          description: "Roti, dal, sabzi, rice, and pickle",
+          rating: 4.7,
+          prepTime: "18 mins",
+          calories: "480 cal",
+          isVegetarian: true,
+          image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop"
+        }
+      ]
+    },
+    {
+      name: "Healthy Drinks",
       description: "Fresh and natural beverages",
       items: [
         {
-          name: "Green Detox Smoothie",
-          description: "Spinach, apple, cucumber, celery, and ginger",
-          price: "₹145",
+          name: "Buttermilk (Chaas)",
+          description: "Spiced yogurt drink with curry leaves and ginger",
           rating: 4.5,
           prepTime: "5 mins",
-          calories: "120 cal",
-          isVegetarian: true
+          calories: "80 cal",
+          isVegetarian: true,
+          image: "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?w=400&h=300&fit=crop"
         },
         {
-          name: "Berry Protein Shake",
-          description: "Mixed berries, protein powder, almond milk, and honey",
-          price: "₹165",
-          rating: 4.7,
+          name: "Fresh Lime Water",
+          description: "Refreshing lime juice with mint and rock salt",
+          rating: 4.6,
           prepTime: "5 mins",
-          calories: "180 cal",
-          isVegetarian: true
+          calories: "40 cal",
+          isVegetarian: true,
+          image: freshLimeWaterImg
+        },
+        {
+          name: "Turmeric Milk",
+          description: "Golden milk with turmeric, black pepper, and honey",
+          rating: 4.8,
+          prepTime: "8 mins",
+          calories: "120 cal",
+          isVegetarian: true,
+          image: turmericMilkImg
         }
       ]
     }
@@ -103,7 +138,7 @@ const Menu = () => {
                 Our <span className="text-primary">Menu</span>
               </h1>
               <p className="text-lg text-muted-foreground">
-                Discover our carefully curated selection of healthy, delicious meals 
+                Discover our carefully curated selection of healthy, delicious Indian meals 
                 prepared fresh daily with the finest ingredients.
               </p>
             </div>
@@ -126,27 +161,27 @@ const Menu = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {category.items.map((item, itemIndex) => (
-                    <Card key={itemIndex} className="shadow-medium hover:shadow-strong transition-all duration-300 group">
+                    <Card key={itemIndex} className="shadow-medium hover:shadow-strong transition-all duration-300 group overflow-hidden">
+                      <div className="relative h-48 overflow-hidden">
+                        <img 
+                          src={item.image} 
+                          alt={item.name}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                        />
+                        {item.isVegetarian && (
+                          <Badge className="absolute top-4 right-4 bg-green-100 text-green-800 border-green-200">
+                            Vegetarian
+                          </Badge>
+                        )}
+                      </div>
                       <CardHeader>
-                        <div className="flex items-start justify-between">
-                          <div className="flex-1">
-                            <CardTitle className="text-xl group-hover:text-primary transition-colors">
-                              {item.name}
-                            </CardTitle>
-                            <div className="flex items-center gap-2 mt-2">
-                              {item.isVegetarian && (
-                                <Badge variant="secondary" className="bg-green-100 text-green-800">
-                                  Vegetarian
-                                </Badge>
-                              )}
-                              <div className="flex items-center text-sm text-muted-foreground">
-                                <Star className="w-4 h-4 text-yellow-500 mr-1" />
-                                {item.rating}
-                              </div>
-                            </div>
-                          </div>
-                          <div className="text-right">
-                            <div className="text-2xl font-bold text-primary">{item.price}</div>
+                        <CardTitle className="text-xl group-hover:text-primary transition-colors">
+                          {item.name}
+                        </CardTitle>
+                        <div className="flex items-center gap-2 mt-2">
+                          <div className="flex items-center text-sm text-muted-foreground">
+                            <Star className="w-4 h-4 text-yellow-500 mr-1 fill-yellow-500" />
+                            {item.rating}
                           </div>
                         </div>
                       </CardHeader>
@@ -161,13 +196,13 @@ const Menu = () => {
                             {item.prepTime}
                           </div>
                           <div className="flex items-center">
-                            <Users className="w-4 h-4 mr-1" />
+                            <Utensils className="w-4 h-4 mr-1" />
                             {item.calories}
                           </div>
                         </div>
                         
                         <Button className="w-full bg-gradient-primary hover:opacity-90">
-                          Order Now
+                          Order for Pickup
                         </Button>
                       </CardContent>
                     </Card>
