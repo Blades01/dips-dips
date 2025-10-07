@@ -36,10 +36,10 @@ const Career = () => {
               <p className="text-lg text-muted-foreground mb-8">
                 To find suitable opportunities, please email your resume at{" "}
                 <a 
-                  href="mailto:hr@freshbites.com" 
+                  href="mailto:hr@DipDips.com" 
                   className="text-primary hover:text-primary-glow font-medium transition-colors"
                 >
-                  hr@freshbites.com
+                  hr@DipDips.com
                 </a>
               </p>
               <p className="text-muted-foreground">
@@ -54,7 +54,7 @@ const Career = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6">
-                Why Join <span className="text-primary">FreshBites?</span>
+                Why Join <span className="text-primary">DipDips?</span>
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 Be part of a team that's revolutionizing healthy eating in India.

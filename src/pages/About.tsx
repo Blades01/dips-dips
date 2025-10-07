@@ -63,14 +63,14 @@ const About = () => {
           <div className="container mx-auto px-4">
             <div className="text-center max-w-4xl mx-auto">
               <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20">
-                About FreshBites
+                About DipDips
               </Badge>
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6">
                 Hygienic Food for <span className="text-primary">Everyone</span>
               </h1>
               <p className="text-lg text-muted-foreground">
                 Founded with a mission to make healthy, hygienic food accessible to all, 
-                FreshBites has been serving nutritious meals prepared with love and care since 2016.
+                DipDips has been serving nutritious meals prepared with love and care since 2016.
               </p>
             </div>
           </div>
@@ -86,7 +86,7 @@ const About = () => {
                 </h2>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    FreshBites was born from a simple belief: everyone deserves access to healthy, 
+                    DipDips was born from a simple belief: everyone deserves access to healthy, 
                     hygienic food that doesn't compromise on taste. What started as a small kitchen 
                     in Mumbai has grown into a trusted name across 25+ cities in India.
                   </p>
@@ -177,7 +177,7 @@ const About = () => {
                 Meet Our <span className="text-primary">Team</span>
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                The passionate experts behind every healthy meal at FreshBites.
+                The passionate experts behind every healthy meal at DipDips.
               </p>
             </div>
 
