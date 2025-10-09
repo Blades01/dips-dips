@@ -9,8 +9,9 @@ export const Header = () => {
   const navItems = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Menu", href: "/menu" },
-    { name: "Career", href: "/career" },
+    { name: "Become Franchise", href: "/Franchise" },
+    // { name: "Menu", href: "/menu" },
+    // { name: "Career", href: "/career" },
     { name: "Contact", href: "/contact" },
   ];
 

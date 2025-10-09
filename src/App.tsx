@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Career from "./pages/Career";
 import Franchise from "./pages/Franchise";
 import NotFound from "./pages/NotFound";
+import AboutDipDips from "./pages/AboutDipDips";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +29,8 @@ const App = () => (
           <Route path="/franchise" element={<Franchise />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
+          <Route path="/about-dipdips" element={<AboutDipDips />} />
+
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

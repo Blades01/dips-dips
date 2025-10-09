@@ -77,8 +77,7 @@ export const FranchiseSection = () => {
             Become a <span className="text-primary">Franchise Partner</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Join India's fastest-growing healthy food pickup network and build a 
-            profitable business with our proven franchise model.
+            Join India's fastest-growing healthy food pickup network and turn your passion for healthy food into a thriving franchise opportunity
           </p>
         </div>
 

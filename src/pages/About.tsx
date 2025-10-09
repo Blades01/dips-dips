@@ -2,6 +2,11 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { useNavigate } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import AboutDipDipsButton from "@/components/ui/AboutDipDipsButton";
+
+
 import { Heart, Leaf, Users, Award, Target, Utensils } from "lucide-react";
 
 const About = () => {
@@ -58,23 +63,12 @@ const About = () => {
       <Header />
       
       <main className="pt-24">
-        {/* Hero Section */}
-        <section className="py-20 bg-gradient-to-br from-primary/5 to-secondary/5">
-          <div className="container mx-auto px-4">
-            <div className="text-center max-w-4xl mx-auto">
-              <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20">
-                About DipDips
-              </Badge>
-              <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6">
-                Hygienic Food for <span className="text-primary">Everyone</span>
-              </h1>
-              <p className="text-lg text-muted-foreground">
-                Founded with a mission to make healthy, hygienic food accessible to all, 
-                DipDips has been serving nutritious meals prepared with love and care since 2016.
-              </p>
-            </div>
-          </div>
-        </section>
+        <section className="py-20 bg-gradient-to-br from-primary/5 to-secondary/5"> <div className="container mx-auto px-4"> <div className="text-center max-w-4xl mx-auto"> <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20"> About DipDips </Badge> <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6"> Hygienic Food for <span className="text-primary">Everyone</span> </h1> <p className="text-lg text-muted-foreground"> Founded with a mission to make healthy, hygienic food accessible to all, DipDips has been serving nutritious meals prepared with love and care since 2016. </p>
+        <AboutDipDipsButton />
+         </div> 
+        </div> </section>
+    
+
 
         {/* Story Section */}
         <section className="py-20">

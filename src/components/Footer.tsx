@@ -67,7 +67,7 @@ export const Footer = () => {
             {/* Links Sections */}
             <div className="lg:col-span-2">
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
-                <div>
+                {/* <div>
                   <h4 className="font-semibold text-lg mb-4">Company</h4>
                   <ul className="space-y-3">
                     {footerLinks.company.map((link) => (
@@ -81,7 +81,7 @@ export const Footer = () => {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
                 <div>
                   <h4 className="font-semibold text-lg mb-4">Services</h4>
                   <ul className="space-y-3">

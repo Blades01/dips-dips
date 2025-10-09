@@ -73,18 +73,7 @@ export const HowItWorks = () => {
           ))}
         </div>
 
-        {/* Bottom CTA */}
-        <div className="text-center mt-16">
-          <div className="inline-flex items-center px-6 py-3 bg-primary/10 rounded-full text-primary font-medium mb-4">
-            ✨ Ready to get started?
-          </div>
-          <h3 className="text-2xl font-bold text-foreground mb-4">
-            Order your first healthy meal today
-          </h3>
-          <p className="text-muted-foreground mb-6 max-w-md mx-auto">
-            Join thousands of happy customers who trust us for their daily nutrition needs.
-          </p>
-        </div>
+        
       </div>
     </section>
   );
