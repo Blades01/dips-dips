@@ -70,15 +70,14 @@ export const FranchiseSection = () => {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20">
+          {/* <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20">
             Business Opportunity
-          </Badge>
+          </Badge> */}
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Become a <span className="text-primary">Franchise Partner</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Join India's fastest-growing healthy food pickup network and turn your passion for healthy food into a thriving franchise opportunity
-          </p>
+            From choosing your meal to picking it up, we’ve made enjoying fresh, healthy food effortless and delightful.</p>
         </div>
 
         {/* Stats Grid */}
@@ -98,7 +97,7 @@ export const FranchiseSection = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Franchise Form */}
-          <Card className="shadow-medium">
+          {/* <Card className="shadow-medium">
             <CardHeader>
               <CardTitle className="text-2xl text-center">
                 Submit Franchise Enquiry
@@ -226,7 +225,15 @@ export const FranchiseSection = () => {
                 </Button>
               </form>
             </CardContent>
-          </Card>
+          </Card> */}
+
+          <Card className="shadow-medium overflow-hidden rounded-2xl">
+  <img
+    src="https://tse1.explicit.bing.net/th/id/OIP.dA4j3T2z5EJF5n3k9oQk1QHaLH?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3"
+    alt="DipDips Franchise"
+    className="w-full h-full object-cover"
+  />
+</Card>
 
           {/* Benefits & Contact */}
           <div className="space-y-8">

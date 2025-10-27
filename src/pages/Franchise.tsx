@@ -75,9 +75,7 @@ const Franchise = () => {
         <section className="py-20 bg-gradient-to-br from-primary/5 to-secondary/5">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-4xl mx-auto">
-              <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20">
-                Business Partnership
-              </Badge>
+              
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6">
                 Franchise <span className="text-primary">Opportunities</span>
               </h1>
