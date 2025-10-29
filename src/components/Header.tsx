@@ -9,10 +9,10 @@ export const Header = () => {
   const navItems = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Become Franchise", href: "/Franchise" },
+    { name: "Become a Franchise", href: "/Franchise" },
     // { name: "Menu", href: "/menu" },
     // { name: "Career", href: "/career" },
-    { name: "Contact", href: "/contact" },
+    { name: "Contact Us", href: "/contact" },
   ];
 
   return (
