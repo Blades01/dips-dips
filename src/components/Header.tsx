@@ -26,7 +26,7 @@ export const Header = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold text-foreground">DipDips</h1>
-              <p className="text-xs text-muted-foreground">Hygienic food for everyone</p>
+              <p className="text-xs text-muted-foreground">Real Food Really Fast</p>
             </div>
           </div>
 

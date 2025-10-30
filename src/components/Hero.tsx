@@ -56,7 +56,7 @@ export const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
               <div className="text-3xl lg:text-4xl font-bold text-white mb-2">50K+</div>
               <div className="text-white/80 text-sm uppercase tracking-wide">Happy Customers</div>
@@ -69,7 +69,7 @@ export const Hero = () => {
               <div className="text-3xl lg:text-4xl font-bold text-white mb-2">100+</div>
               <div className="text-white/80 text-sm uppercase tracking-wide">Healthy Dishes</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
