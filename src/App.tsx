@@ -29,7 +29,8 @@ const App = () => (
           <Route path="/franchise" element={<Franchise />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
-          <Route path="/about-dipdips" element={<AboutDipDips />} />
+          <Route path="/about-dipdips/:type" element={<AboutDipDips />} />
+
 
         </Routes>
       </BrowserRouter>

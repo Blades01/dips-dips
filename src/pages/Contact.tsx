@@ -15,10 +15,10 @@ const Contact: React.FC = () => {
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-6">
-                Get in <span className="text-primary">Touch</span>
+                Get in Touch with <span className="text-primary">DipDips</span>
               </h1>
               <p className="text-lg text-muted-foreground">
-                Have questions about our healthy food or franchise opportunities? We’d love to hear from you. Our team is here to help.
+                Have a question, partnership idea, or just craving healthy ready-to-eat meals? We’d love to hear from you!
               </p>
             </div>
           </div>

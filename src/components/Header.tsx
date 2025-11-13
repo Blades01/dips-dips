@@ -21,7 +21,7 @@ export const Header = () => {
         <nav className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-full overflow-hidden">
+            <div className="w-17 h-12 rounded-full overflow-hidden">
               <img src={logo} alt="DipDips Logo" className="w-full h-full object-cover" />
             </div>
             <div>

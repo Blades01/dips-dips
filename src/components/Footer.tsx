@@ -31,8 +31,8 @@ export const Footer = () => {
               </div>
             </div>
             <p className="text-background/80 mb-6 leading-relaxed">
-              Preparing fresh, healthy, and delicious meals ready for pickup. 
-              Made with love, served with care.
+              DipDips – Ready-to-Eat Vegetarian Meals Under 10 Minutes
+               Healthy. Affordable. Instant. 100% Veg.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (

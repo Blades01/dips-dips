@@ -224,9 +224,8 @@ const About = () => {
                     Our Mission
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    To revolutionize the way India eats by making healthy, hygienic food accessible, 
-                    affordable, and absolutely delicious. We believe that good health starts with good food.
-                  </p>
+                   To deliver wholesome ready-to-eat meals in under 10 minutes, blending taste, nutrition, and convenience through innovative recipes, eco-friendly packaging.
+                   </p>
                 </CardContent>
               </Card>
 
@@ -240,8 +239,7 @@ const About = () => {
                     Our Vision
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    To become India's most trusted healthy food brand, inspiring millions to embrace 
-                    nutritious eating habits and lead healthier, happier lives through our fresh meals.
+                     To make healthy, instant eating a daily lifestyle choice — accessible, enjoyable, and sustainable.
                   </p>
                 </CardContent>
               </Card>
